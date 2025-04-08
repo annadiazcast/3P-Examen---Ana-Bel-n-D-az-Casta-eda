@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3P Examen - Ana Belén Díaz Castañeda", "3P Examen - Ana Belén Díaz Castañeda\3P Examen - Ana Belén Díaz Castañeda.csproj", "{0DB401BC-A5A5-4C4C-A3E5-712D524D0FBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DB401BC-A5A5-4C4C-A3E5-712D524D0FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB401BC-A5A5-4C4C-A3E5-712D524D0FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB401BC-A5A5-4C4C-A3E5-712D524D0FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB401BC-A5A5-4C4C-A3E5-712D524D0FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04DB4DAD-9834-4F8D-9871-74B08A805196}
+	EndGlobalSection
+EndGlobal
