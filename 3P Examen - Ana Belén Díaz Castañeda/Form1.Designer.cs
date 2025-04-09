@@ -38,40 +38,45 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(144, 90);
+            this.label1.Location = new System.Drawing.Point(108, 73);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 16);
+            this.label1.Size = new System.Drawing.Size(56, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "USUARIO";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(539, 90);
+            this.label2.Location = new System.Drawing.Point(404, 73);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 16);
+            this.label2.Size = new System.Drawing.Size(81, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "CONTRASEÑA";
             // 
             // tbxUsuario
             // 
-            this.tbxUsuario.Location = new System.Drawing.Point(102, 120);
+            this.tbxUsuario.Location = new System.Drawing.Point(76, 98);
+            this.tbxUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbxUsuario.Name = "tbxUsuario";
-            this.tbxUsuario.Size = new System.Drawing.Size(149, 22);
+            this.tbxUsuario.Size = new System.Drawing.Size(113, 20);
             this.tbxUsuario.TabIndex = 2;
             // 
             // tbxContraseña
             // 
-            this.tbxContraseña.Location = new System.Drawing.Point(510, 120);
+            this.tbxContraseña.Location = new System.Drawing.Point(382, 98);
+            this.tbxContraseña.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbxContraseña.Name = "tbxContraseña";
-            this.tbxContraseña.Size = new System.Drawing.Size(149, 22);
+            this.tbxContraseña.Size = new System.Drawing.Size(113, 20);
             this.tbxContraseña.TabIndex = 3;
             // 
             // btnIngresar
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(342, 196);
+            this.btnIngresar.Location = new System.Drawing.Point(256, 159);
+            this.btnIngresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(104, 35);
+            this.btnIngresar.Size = new System.Drawing.Size(78, 28);
             this.btnIngresar.TabIndex = 4;
             this.btnIngresar.Text = "INGRESAR";
             this.btnIngresar.UseVisualStyleBackColor = true;
@@ -79,14 +84,17 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.tbxContraseña);
             this.Controls.Add(this.tbxUsuario);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
