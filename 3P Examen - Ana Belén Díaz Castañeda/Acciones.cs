@@ -10,11 +10,11 @@ namespace _3P_Examen___Ana_Belén_Díaz_Castañeda
     {
         List<Propiedades> listapropiedades = new List<Propiedades>()
         {
-            new Propiedades(1126,"Ana",DateTime.Today,true,"Azul"),
-            new Propiedades(1145,"Ara",DateTime.Today,false,"Rosa"),
-            new Propiedades(1133,"Adan",DateTime.Today,true,"Negro"),
-            new Propiedades(1188,"Jostin",DateTime.Today,true,"Rojo"),
-            new Propiedades(1122,"Mario",DateTime.Today,false,"Balnco")
+            new Propiedades(1126,"Nintendo",DateTime.Today,true,"Azul"),
+            new Propiedades(1145,"Ps5",DateTime.Today,false,"Rosa"),
+            new Propiedades(1133,"Xbox",DateTime.Today,true,"Negro"),
+            new Propiedades(1188,"Ps4",DateTime.Today,true,"Rojo"),
+            new Propiedades(1122,"GameBoy",DateTime.Today,false,"Blanco")
         };
         Propiedades p = new Propiedades();
         public List<Propiedades> MostrarPropiedades()
